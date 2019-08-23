@@ -9,7 +9,7 @@ print(f'{greeting} my name is {my_name} and I am {my_age} years old.')
 
 #Problem 2
 secret_word=input("enter a password: ")
-secret_pw= "cookie"
+secret_pw= "cookie" # the secret password is chosen by the user not hard coded
 
 while(secret_word!=secret_pw):
     secret_word=input("Guess Again: ")
